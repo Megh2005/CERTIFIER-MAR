@@ -7,104 +7,43 @@
 <div align="center">
 
 [![Project](https://img.shields.io/badge/Version-1.0.1-orange.svg)]()
+&nbsp;
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
-[![Team](https://img.shields.io/badge/Teamtatus-TJP-red.svg)]()
+&nbsp;
+[![Team](https://img.shields.io/badge/Team-Tech_Janta_Party-red.svg)](https://tech-janta-party.vercel.app)
+&nbsp;
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+&nbsp;
+[![X Follow](https://img.shields.io/twitter/follow/ThisIsMeghDeb)](https://twitter.com/ThisIsMeghDeb)
+&nbsp;
+[![GitHub User's stars](https://img.shields.io/github/stars/Megh2005?style=social)](https://github.com/Megh2005)
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
+<h4 align="center">
+    Certifier For MAR is a cutting-edge digital certificate generator and minting website. Our platform allows users to create, manage, and distribute digital certificates with ease. Utilizing blockchain technology, we ensure that each certificate is unique, tamper-proof, and easily verifiable. Whether you are an educational institution, a professional organization, or a business, Certifier For MAR provides a seamless solution for all your certification needs.
+</h4>
 
+## 🧐 Problem Statement
+***The current process of generating and managing digital certificates is fraught with inefficiencies and security concerns. Traditional methods are often time-consuming, prone to errors, and susceptible to tampering, which undermines the credibility and authenticity of the certificates. Certifier For MAR aims to address these issues by providing a seamless, blockchain-based solution that ensures each certificate is unique, tamper-proof, and easily verifiable. Without such a solution, organizations risk significant losses in terms of time, money, and reputation, as well as diminished trust from stakeholders***
 
-## 🧐 Problem Statement <a name = "problem_statement"></a>
+## 💡 Idea / Solution
+***The solution involves leveraging blockchain technology to create a secure, efficient, and tamper-proof system for generating and managing digital certificates. By integrating blockchain, Certifier For MAR ensures that each certificate is unique and easily verifiable, addressing the inefficiencies and security concerns of traditional methods. The platform provides a user-friendly interface for creating, managing, and distributing certificates, making the process seamless for educational institutions, professional organizations, and businesses. This approach not only enhances the credibility and authenticity of the certificates but also saves time and resources, ultimately building trust among stakeholders***
 
-It is useful to design and follow a specific format when writing a problem statement. While there are several options
-for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
-focus on defining the problem.
+## ⛓️ Dependencies
+***The project relies on several blockchain-based dependencies to function effectively. These include Ethereum for smart contract deployment, Web3.js for interacting with the Ethereum blockchain, and IPFS for decentralized storage. Each of these technologies plays a crucial role in ensuring the security, transparency, and immutability of the digital certificates generated and managed by the Certifier For MAR platform***
 
-- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section
-  should illustrate what the expected environment would look like once the solution is implemented.
-- REALITY: This section is used to describe the current or “as is” state of the process or product.
-- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
-  This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
+## 🚀 Future Scope
+***While we made significant progress during the Hackathon, there were several features we could not develop due to time constraints. In the future, we aim to enhance the platform by integrating advanced analytics to track certificate issuance and verification, implementing multi-language support to cater to a global audience, and developing mobile applications for on-the-go certificate management. Additionally, we plan to explore partnerships with educational institutions and professional organizations to expand our user base and continuously improve the platform based on user feedback***
 
-Following this format will result in a workable document that can be used to understand the problem and elicit
-requirements that will lead to a winning solution.
-
-## 💡 Idea / Solution <a name = "idea"></a>
-
-This section is used to describe potential solutions.
-
-Once the ideal, reality, and consequences sections have been
-completed, and understood, it becomes easier to provide a solution for solving the problem.
-
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
-
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if
-  appropriate, describe how these limitations could point to the need for further research.
-
-## 🚀 Future Scope <a name = "future_scope"></a>
-
-Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
-in the future.
-
-## 🏁 Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development
-and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## ⛏️ Built With <a name = "tech_stack"></a>
-
+## ⛏️ Built With
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
 - [VueJs](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
-who participated in this project.
-
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+## ✍️ Tech Brains
+- ***[Megh Deb](https://github.com/Megh2005) - Project Generation***
+- ***[Subham Mani](https://github.com/iSubhamMani) - Project Buildup***
