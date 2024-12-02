@@ -6,7 +6,7 @@ import React from "react";
 export default function VortexDemoSecond() {
   const router = useRouter();
   const guide = async () => {
-    router.push("/about");
+    router.push("/login");
   }
 
 
@@ -15,9 +15,9 @@ export default function VortexDemoSecond() {
       className="w-[100vw] mx-auto rounded-md  h-screen overflow-hidden">
       <Vortex
         backgroundColor="black"
-        rangeY={800}
+        rangeY={900}
         particleCount={1000}
-        baseHue={120}
+        baseHue={70}
         className="flex items-center flex-col justify-center  py-4 w-screen h-screen">
         <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
           Do You Have Lack of Certificates ?

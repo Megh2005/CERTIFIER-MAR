@@ -2,8 +2,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaHome, FaInfoCircle, FaUserAlt, FaPhone } from "react-icons/fa";
+import { FaHome, FaInfoCircle, FaPhone } from "react-icons/fa";
 import { signOut } from "next-auth/react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,18 +35,18 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden sm:flex space-x-6">
           {menuItems.map((item, index) => (
-            <a
+            <Link
               key={index}
               href={item.href}
               className="flex items-center space-x-2 text-gray-300 hover:text-green-400 transition"
             >
               {item.icon}
               <span>{item.name}</span>
-            </a>
+            </Link>
           ))}
           <button
             onClick={() => signOut({ callbackUrl: "/login" })}
-            className="text-gray-300 hover:text-green-400 transition"
+            className="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"
           >
             Logout
           </button>
@@ -58,23 +59,23 @@ export default function Navbar() {
           initial={{ height: 0 }}
           animate={{ height: "auto" }}
           exit={{ height: 0 }}
-          className="sm:hidden bg-gray-800"
+          className="sm:hidden bg-gray-900"
         >
           <div className="flex flex-col space-y-4 p-4">
             {menuItems.map((item, index) => (
-              <a
+              <Link
                 key={index}
                 href={item.href}
                 className="flex items-center space-x-2 text-gray-300 hover:text-white transition"
               >
                 {item.icon}
                 <span>{item.name}</span>
-              </a>
+              </Link>
             ))}
             <div className="flex items-center justify-start ">
               <button
                 onClick={() => signOut({ callbackUrl: "/login" })}
-                className=" text-gray-300 hover:text-green-400 transition"
+                className=" text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"
               >
                 Logout
               </button>
