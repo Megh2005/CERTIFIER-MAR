@@ -47,3 +47,63 @@
 ## ✍️ Tech Brains
 - ***[Megh Deb](https://github.com/Megh2005) - Project Generation***
 - ***[Subham Mani](https://github.com/iSubhamMani) - Project Buildup***
+
+## 📂 Folder Structure
+```
+└── 📁CERTIFIER-MAR
+    └── 📁app
+        └── 📁about
+            └── page.jsx
+        └── 📁api
+            └── 📁auth
+                └── 📁[...nextauth]
+                    └── options.js
+                    └── route.js
+        └── 📁contact
+            └── page.jsx
+        └── 📁generate
+            └── page.jsx
+        └── 📁login
+            └── page.jsx
+        └── 📁register
+            └── page.jsx
+        └── globals.css
+        └── layout.jsx
+        └── page.jsx
+    └── 📁components
+        └── 📁ui
+            └── aurora-background.jsx
+            └── moving-border.jsx
+            └── navbar.jsx
+            └── vortex.jsx
+            └── wavy-background.jsx
+    └── 📁lib
+        └── 📁actions
+            └── register.js
+        └── 📁db
+            └── index.js
+        └── utils.js
+    └── 📁models
+        └── User.js
+    └── 📁public
+        └── next.svg
+        └── vercel.svg
+    └── .gitignore
+    └── components.json
+    └── jsconfig.json
+    └── middleware.js
+    └── next.config.js
+    └── package-lock.json
+    └── package.json
+    └── postcss.config.js
+    └── README.md
+    └── tailwind.config.js
+    └── .env
+```
+
+## 🤫 Example .env File
+```kotlin
+MONGODB_URI = "YOUR_MONGODB_URI"
+NEXT_AUTH_SECRET = "NEXT_AUTH_SECRET"
+ADMIN_EMAIL = "ADMIN_ACESS_EMAIL"
+```
