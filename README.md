@@ -102,7 +102,7 @@
 ```
 
 ## 🤫 Example .env File
-```kotlin
+```env
 MONGODB_URI = "YOUR_MONGODB_URI"
 NEXT_AUTH_SECRET = "NEXT_AUTH_SECRET"
 ADMIN_EMAIL = "ADMIN_ACCESS_EMAIL"
