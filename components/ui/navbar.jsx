@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaHome, FaInfoCircle, FaPhone } from "react-icons/fa";
+import { FaBezierCurve, FaInfoCircle, FaPhone } from "react-icons/fa";
 import { signOut } from "next-auth/react";
 import Link from "next/link";
 
@@ -12,8 +12,8 @@ export default function Navbar() {
   const toggleNavbar = () => setIsOpen(!isOpen);
 
   const menuItems = [
-    { name: "Home", icon: <FaHome />, href: "/" },
     { name: "About", icon: <FaInfoCircle />, href: "/about" },
+    { name: "Features", icon: <FaBezierCurve />, href: "/specialities" },
     { name: "Contact", icon: <FaPhone />, href: "/contact" },
   ];
 
